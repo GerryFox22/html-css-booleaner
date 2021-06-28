@@ -1,6 +1,6 @@
 body {
-    width: 50%;
-    margin: auto;
+    max-width: 1100px;
+    margin:0 auto;
 }
 
 header {
@@ -8,6 +8,10 @@ header {
      background-color: #2196f3;
      height: 180px;
      color: white;
+}
+
+ #logo {
+    width: 200px;
 }
 
 a {
@@ -50,9 +54,12 @@ table {
     width: 100%;
 }
 
+.larghezza-25 {
+    width: 25%;
+}
+
 th {
-    text-align: left;
-    width: 50px;
+    text-align: left; 
     margin-top: ds;
 }
 
